@@ -12,6 +12,7 @@
         <module>httpclient</module>
         <module>user-service</module>
         <module>consumer-demo</module>
+        <module>eureka-service</module>
     </modules>
 
 
