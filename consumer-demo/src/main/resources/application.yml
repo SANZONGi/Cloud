@@ -7,3 +7,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:10086/eureka,http://localhost:10087/eureka
+hystrix:
+  command:
+    default:  #default全局有效
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 2 #断路器超时时间，默认1000ms
